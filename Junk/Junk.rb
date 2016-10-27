@@ -1,13 +1,9 @@
 require 'erb'
 
-class Junk
+class Junk < ERB
 
-  def initialize
-    @junk = Junk.new
-  end
-
-  def name
-    "Junk"
+  def name_tag
+     "Junk"
   end
 
 end
